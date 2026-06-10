@@ -8,25 +8,35 @@ public class Main {
                         "Tanvi",
                         5000
                 );
-
-
-        System.out.println(
-                "ACCOUNT DETAILS"
-        );
-
-        System.out.println(
-                "Account Number: "
-                        + account1.getAccountNumber()
-        );
+        BankAccount account2 =
+                new BankAccount(
+                        102,
+                        "Vedaant",
+                        12000
+                );
 
         System.out.println(
-                "Account Holder: "
-                        + account1.getAccountHolderName()
-        );
+        "ACCOUNT DETAILS"
+);
+        System.out.println(
+        "\nAccount 1:"
+);
+account1.displayAccountDetails();
 
         System.out.println(
-                "Balance: Rs."
-                        + account1.getBalance()
-        );
+        "\nAccount 2:"
+);
+        account2.displayAccountDetails();
+
+        System.out.println(
+        "\nTRANSACTION HISTORY"
+);
+        System.out.println(
+        "Account 1 (Tanvi):"
+);
+        account1.showTransactions();
+        System.out.println(
+        "Account 2 (Rahul):"
+);       account2.showTransactions();
     }
 }

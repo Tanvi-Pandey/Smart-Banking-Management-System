@@ -9,7 +9,3 @@ A Java-based Smart Banking System built to demonstrate:
 - JDBC
 - Multithreading
 - Design Patterns
-
-## Current Progress
-
-✅ Project initialized
